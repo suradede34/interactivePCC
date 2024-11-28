@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/dom.css">
+    <script src="assets/js/dom.js" defer></script>
+    <title>Interactive Pricing Component</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <img src="assets/img/Group 11.png" alt="" class="background-image">
+            <div class="text-container">
+                <h1>Simple, traffic-based pricing</h1>
+                <p>Sign-up for our 30-day trial.<br>No credit card required.</p>
+            </div>
+        </div>
+        <div class="body-products">
+            <h2>100K PAGEVIEWS</h2>
+            <input type="range" min="10" max="100" step="5" value="15" id="pageViewRange">
+            <p id="pageViews">$16.00/month</p>
+        </div>
+        <div class="feature-products">
+            <span class="left-text">Monthly Billing</span>
+            <button id="toggleButton" class="toggle-button"></button>
+            <span class="right-text">Yearly Billing</span>
+            <img src="assets/img/Group 13.png">
+        </div>
+        <div class="feature-products__details">
+            <div class="item">
+                <p class="text">Unlimited websites</p>
+                <p class="text">100% data ownership</p>
+                <p class="text">Email reports</p>
+                <button class="my-button">Start my trial</button>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
+
